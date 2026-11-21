@@ -1,93 +1,568 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bayyan AI — 24/7 WhatsApp AI that sells for you</title>
-<meta name="description" content="Bilingual WhatsApp AI agents for UAE businesses: answer after-hours leads, book viewings & appointments, recover carts. Live in 24-48h, from AED 5,000. Free AI audit.">
-<style>
-  :root{--bg:#0b1220;--card:#121a2b;--ink:#e8eefc;--mut:#93a3c2;--acc:#25D366;--acc2:#4f8cff;--line:#1f2a44}
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
-  .wrap{max-width:760px;margin:0 auto;padding:24px 20px 64px}
-  header{display:flex;align-items:center;gap:10px;margin-bottom:28px}
-  .logo{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;font-weight:800;color:#042}
-  h1{font-size:30px;line-height:1.2;margin-bottom:12px}
-  .sub{color:var(--mut);font-size:17px;margin-bottom:26px}
-  .pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
-  .pill{font-size:13px;border:1px solid var(--line);border-radius:999px;padding:5px 12px;color:var(--mut)}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin-bottom:16px}
-  h2{font-size:19px;margin-bottom:10px}
-  ul{list-style:none}
-  li{padding:6px 0 6px 26px;position:relative;color:#dbe4f5}
-  li:before{content:"✓";position:absolute;left:0;color:var(--acc);font-weight:700}
-  .cta{display:block;text-align:center;background:var(--acc);color:#042;font-weight:700;font-size:16px;border-radius:12px;padding:14px 18px;text-decoration:none;margin:18px 0 10px}
-  .cta.sec{background:var(--acc2);color:#fff}
-  .cta:hover{filter:brightness(1.06)}
-  .tiny{font-size:13px;color:var(--mut);text-align:center;margin-top:8px}
-  .price{color:var(--acc);font-weight:700}
-  .steps{display:grid;gap:10px;margin-top:6px}
-  .step{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px}
-  .step b{color:var(--acc2)}
-  footer{margin-top:34px;text-align:center;font-size:12px;color:#5f708f}
-  @media (prefers-reduced-motion: no-preference){.card{animation:fade .5s ease}}
-  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayyan AI | AI Consultancy &amp; Automation Services in the UAE</title>
+    <meta name="description" content="Bayyan AI helps UAE and international businesses adopt AI that saves time and cuts costs. AI consultancy, automation, content and custom AI solutions.">
+    <link rel="canonical" href="https://bayyanai.com/">
+
+    <meta name="theme-color" content="#0f172a">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bayyan AI">
+    <meta property="og:url" content="https://bayyanai.com/">
+    <meta property="og:title" content="Bayyan AI | AI Consultancy &amp; Automation Services">
+    <meta property="og:description" content="We help UAE and international businesses adopt AI solutions that save time, reduce costs, and unlock new growth opportunities.">
+    <meta property="og:image" content="https://bayyanai.com/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bayyan AI | AI Consultancy &amp; Automation Services">
+    <meta name="twitter:description" content="AI consultancy, automation and custom AI solutions for businesses in the UAE and worldwide.">
+    <meta name="twitter:image" content="https://bayyanai.com/assets/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bayyanai.com/#organization",
+          "name": "Bayyan AI",
+          "url": "https://bayyanai.com/",
+          "logo": "https://bayyanai.com/assets/og-image.png",
+          "email": "info@bayyanai.com",
+          "telephone": "+971-50-208-0895",
+          "areaServed": ["AE", "Worldwide"],
+          "description": "AI consultancy and automation services for businesses in the UAE and internationally.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "sales",
+            "email": "info@bayyanai.com",
+            "telephone": "+971-50-208-0895",
+            "availableLanguage": ["en", "ar"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bayyanai.com/#website",
+          "url": "https://bayyanai.com/",
+          "name": "Bayyan AI",
+          "publisher": { "@id": "https://bayyanai.com/#organization" },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://bayyanai.com/#service",
+          "name": "Bayyan AI",
+          "url": "https://bayyanai.com/",
+          "parentOrganization": { "@id": "https://bayyanai.com/#organization" },
+          "areaServed": ["AE", "Worldwide"],
+          "provider": { "@id": "https://bayyanai.com/#organization" },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "AI Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Consultancy" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Automation" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Content & Marketing" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom AI Solutions" } }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bayyanai.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does the free AI audit include?",
+              "acceptedAnswer": { "@type": "Answer", "text": "A 30-minute call where we review your current workflows, identify the highest-value automation opportunities, and give you a short written summary with expected ROI. No commitment required." }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does implementation take?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Most automation workflows go live within two to four weeks. Larger custom AI projects are scoped in phases so you see value early." }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you work with businesses outside the UAE?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We are based in the UAE and work remotely with clients worldwide." }
+            },
+            {
+              "@type": "Question",
+              "name": "Is our data secure?",
+              "acceptedAnswer": { "@type": "Answer", "text": "We only connect systems you approve, follow least-privilege access, and never share your data with third parties. We can work within your existing security policies." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<!-- agent-readable surface -->
+<link rel="alternate" type="text/markdown" href="/index.md" title="This page as Markdown">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="Site index (llms.txt)">
+<link rel="describedby" type="text/markdown" href="/auth.md" title="Access notes">
+<link rel="service-desc" type="application/json" href="/.well-known/ai-catalog.json" title="AI capability catalog">
+<link rel="index" type="application/json" href="/.well-known/agent-skills/index.json" title="Agent Skills index">
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">B</div>
-    <span>Bayyan AI</span>
-  </header>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <h1>Your business loses leads at 2am.<br>Yours can stop.</h1>
-  <p class="sub">A bilingual (Arabic + English) WhatsApp AI agent that answers enquiries,
-  books viewings &amp; appointments and captures contacts <b>24/7</b>. Live in 24–48 hours.</p>
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container nav-container">
+            <a href="/" class="logo" aria-label="Bayyan AI home">
+                <span class="logo-icon" aria-hidden="true">&#9672;</span>
+                <span class="logo-text">Bayyan<span class="logo-ai">AI</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
+            <button class="mobile-menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
 
-  <div class="pills">
-    <span class="pill">24/7 response</span>
-    <span class="pill">Arabic + English</span>
-    <span class="pill">Live in 24–48h</span>
-    <span class="pill">From <b class="price">AED 5,000</b></span>
-  </div>
+    <main id="main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-container">
+            <p class="hero-badge">AI-Powered Solutions for Business</p>
+            <h1 class="hero-title">
+                Transform Your Business<br>
+                with <span class="gradient-text">Artificial Intelligence</span>
+            </h1>
+            <p class="hero-subtitle">
+                We help UAE and international businesses adopt AI solutions that save time, reduce costs, and unlock new growth opportunities.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://cal.com/bayyanai/15min" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">Book Free AI Audit</a>
+                <a href="#services" class="btn btn-secondary btn-lg">Our Services</a>
+                <a href="https://wa.me/447776799344?text=Hi%20Bayyan%20AI%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." class="btn btn-secondary btn-lg" target="_blank" rel="noopener noreferrer" aria-label="Chat with Bayyan AI on WhatsApp">Chat on WhatsApp</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Businesses Helped</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">40%</span>
+                    <span class="stat-label">Average Cost Savings</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">AI Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="card">
-    <h2>What the agent does</h2>
-    <ul>
-      <li>Answers WhatsApp instantly — even after hours, weekends and holidays</li>
-      <li>Qualifies every lead, then books viewings / appointments / orders</li>
-      <li>Captures name &amp; number into the same flow your team already uses</li>
-      <li>Multilingual — every UAE buyer is answered in their own language</li>
-    </ul>
-  </div>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">What We Offer</p>
+                <h2 class="section-title">AI Solutions Tailored to Your Needs</h2>
+                <p class="section-subtitle">From strategy to implementation, we deliver end-to-end AI solutions that drive real business results.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">&#9881;</div>
+                    <h3>AI Consultancy</h3>
+                    <p>Expert guidance on adopting AI into your business. We assess your operations, identify opportunities, and create a clear roadmap for AI transformation.</p>
+                    <ul class="service-features">
+                        <li>AI Readiness Assessment</li>
+                        <li>Strategy Development</li>
+                        <li>Technology Selection</li>
+                        <li>Team Training</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon" aria-hidden="true">&#9889;</div>
+                    <h3>AI Automation</h3>
+                    <p>Automate repetitive tasks and workflows with AI. Save hundreds of hours and reduce human error with intelligent process automation.</p>
+                    <ul class="service-features">
+                        <li>Email &amp; Communication AI</li>
+                        <li>Data Processing Automation</li>
+                        <li>Workflow Integration</li>
+                        <li>Custom AI Agents</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">&#9733;</div>
+                    <h3>AI Content &amp; Marketing</h3>
+                    <p>AI-powered content creation, social media management, and marketing automation that scales your brand presence globally.</p>
+                    <ul class="service-features">
+                        <li>Content Strategy</li>
+                        <li>AI Copywriting</li>
+                        <li>Social Media Automation</li>
+                        <li>SEO Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" aria-hidden="true">&#10070;</div>
+                    <h3>Custom AI Solutions</h3>
+                    <p>Bespoke AI tools and SaaS products built specifically for your business challenges. From chatbots to analytics dashboards.</p>
+                    <ul class="service-features">
+                        <li>AI Chatbots &amp; Assistants</li>
+                        <li>Data Analytics Tools</li>
+                        <li>API Integrations</li>
+                        <li>SaaS Development</li>
+                    </ul>
+                </div>
+                <div class="service-card flagship" id="whatsapp-ai">
+                    <div>
+                        <div class="service-icon" aria-hidden="true">&#128172;</div>
+                        <h3>WhatsApp AI Agents <span class="inline-badge">Live in 24&ndash;48h</span></h3>
+                        <p>A bilingual (Arabic + English) WhatsApp agent that answers every enquiry instantly, qualifies the lead, books viewings and appointments, and captures contact details &mdash; including after hours and weekends.</p>
+                        <a href="https://wa.me/447776799344?text=Hi%20Bayyan%20AI%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See it on WhatsApp</a>
+                    </div>
+                    <ul class="service-features">
+                        <li>24/7 instant replies in Arabic and English</li>
+                        <li>Lead qualification &amp; appointment booking</li>
+                        <li>Contact capture into your existing workflow</li>
+                        <li>Fixed scope, from AED 5,000</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="card">
-    <h2>Why it matters</h2>
-    <p style="color:#dbe4f5">82% of UAE buyers who message a business on WhatsApp expect an answer
-    within an hour. After 6pm most businesses go silent — <b>whoever answers first gets the booking.</b>
-    In comparable builds, after-hours WhatsApp automation lifted lead-to-booking by ~38% in month one.</p>
-  </div>
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">How It Works</p>
+                <h2 class="section-title">From Discovery to Deployment</h2>
+                <p class="section-subtitle">A proven 4-step process to transform your business with AI.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">01</div>
+                    <h3>Discovery Call</h3>
+                    <p>We learn about your business, challenges, and goals. No jargon, just an honest conversation about what AI can do for you.</p>
+                </div>
+                <div class="process-connector" aria-hidden="true">&#8594;</div>
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">02</div>
+                    <h3>AI Audit &amp; Strategy</h3>
+                    <p>We analyze your operations and deliver a clear report with specific AI recommendations and expected ROI.</p>
+                </div>
+                <div class="process-connector" aria-hidden="true">&#8594;</div>
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">03</div>
+                    <h3>Implementation</h3>
+                    <p>We build and integrate AI solutions into your workflows. Fast, secure, and with minimal disruption.</p>
+                </div>
+                <div class="process-connector" aria-hidden="true">&#8594;</div>
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">04</div>
+                    <h3>Optimise &amp; Scale</h3>
+                    <p>We monitor performance, optimize results, and help you scale AI across your entire organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div style="margin:6px 0 4px">
-    <a class="cta" href="https://wa.me/447776799344?text=Hi%21%20I%20want%20to%20know%20more%20about%20the%20WhatsApp%20AI%20agent." target="_blank" rel="noopener">Chat with us on WhatsApp</a>
-    <a class="cta sec" href="https://cal.com/bayyanai/15min" target="_blank" rel="noopener">Book your free 15-minute AI audit</a>
-    <div class="tiny">No commitment · you keep the 1-page audit either way</div>
-  </div>
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Pricing</p>
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Start small, scale as you grow. All plans include a free AI audit.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">$499<span>/month</span></div>
+                        <p>Perfect for small businesses exploring AI</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>&#10003; 1 AI automation workflow</li>
+                        <li>&#10003; Monthly strategy call</li>
+                        <li>&#10003; Email support</li>
+                        <li>&#10003; Basic analytics</li>
+                        <li class="disabled">&#10007; Custom AI development</li>
+                        <li class="disabled">&#10007; Priority support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Best Value</div>
+                    <div class="pricing-header">
+                        <h3>Growth</h3>
+                        <div class="price">$1,499<span>/month</span></div>
+                        <p>For businesses ready to scale with AI</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>&#10003; 5 AI automation workflows</li>
+                        <li>&#10003; Weekly strategy calls</li>
+                        <li>&#10003; Priority support</li>
+                        <li>&#10003; Advanced analytics</li>
+                        <li>&#10003; Custom AI development</li>
+                        <li>&#10003; Team training</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">Custom</div>
+                        <p>For large organisations with complex needs</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>&#10003; Unlimited AI workflows</li>
+                        <li>&#10003; Dedicated AI strategist</li>
+                        <li>&#10003; 24/7 support</li>
+                        <li>&#10003; Custom AI SaaS development</li>
+                        <li>&#10003; On-site training</li>
+                        <li>&#10003; SLA guarantee</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-block">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="card">
-    <h2>How it works</h2>
-    <div class="steps">
-      <div class="step"><b>1.</b> Free 15-minute audit — we map your 2–3 highest-ROI automations</div>
-      <div class="step"><b>2.</b> Fixed price, agreed upfront. No hourly billing, no surprises</div>
-      <div class="step"><b>3.</b> Live in 24–48 hours on WhatsApp. Results measured in week one</div>
-    </div>
-  </div>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Results</p>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Bayyan AI automated our entire customer onboarding process. What used to take 3 hours now takes 10 minutes."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" aria-hidden="true">JR</div>
+                        <div>
+                            <strong>James R.</strong>
+                            <span>E-commerce Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"The AI audit alone saved us $2,000/month in operational costs. Their team made AI simple and actionable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" aria-hidden="true">SK</div>
+                        <div>
+                            <strong>Sarah K.</strong>
+                            <span>Marketing Agency Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Professional, knowledgeable, and results-driven. They built a custom AI chatbot that handles 70% of our support tickets."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" aria-hidden="true">MT</div>
+                        <div>
+                            <strong>Michael T.</strong>
+                            <span>SaaS Startup Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>Bayyan AI · Dubai, United Arab Emirates · <a href="mailto:hello@bayyanai.com" style="color:#8096c7">hello@bayyanai.com</a></p>
-    <p>Automation for UAE &amp; UK businesses — WhatsApp lead agents &amp; workflow automation</p>
-  </footer>
-</div>
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Questions</p>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Still unsure? Book a free audit and we will answer anything specific to your business.</p>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>What does the free AI audit include?</summary>
+                    <p>A 30-minute call where we review your current workflows, identify the highest-value automation opportunities, and give you a short written summary with expected ROI. No commitment required.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How long does implementation take?</summary>
+                    <p>Most automation workflows go live within two to four weeks. Larger custom AI projects are scoped in phases so you see value early.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Do you work with businesses outside the UAE?</summary>
+                    <p>Yes. We are based in the UAE and work remotely with clients worldwide.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is our data secure?</summary>
+                    <p>We only connect systems you approve, follow least-privilege access, and never share your data with third parties. We can work within your existing security policies.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Business with AI?</h2>
+                <p>Book a free 30-minute AI audit call. No commitment, no jargon &mdash; just honest advice on how AI can help your business.</p>
+                <a href="https://cal.com/bayyanai/15min" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">Book Free Audit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Get in Touch</p>
+                <h2 class="section-title">Let's Talk AI</h2>
+                <p class="section-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">&#9993;</div>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:info@bayyanai.com">info@bayyanai.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">&#9742;</div>
+                        <div>
+                            <strong>Phone</strong>
+                            <a href="tel:+971502080895">+971 50 208 0895</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">&#128172;</div>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <a href="https://wa.me/447776799344?text=Hi%20Bayyan%20AI%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener noreferrer">+447776799344</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">&#9873;</div>
+                        <div>
+                            <strong>Location</strong>
+                            <span>Dubai, United Arab Emirates (Serving Clients Worldwide)</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                    <input type="hidden" name="access_key" value="REPLACE-WITH-WEB3FORMS-ACCESS-KEY">
+                    <input type="hidden" name="subject" value="New enquiry from bayyanai.com">
+                    <input type="hidden" name="from_name" value="Bayyan AI Website">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required autocomplete="name" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required autocomplete="email" placeholder="john@company.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company" autocomplete="organization" placeholder="Your Company Ltd">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service...</option>
+                            <option value="consultancy">AI Consultancy</option>
+                            <option value="automation">AI Automation</option>
+                            <option value="content">AI Content &amp; Marketing</option>
+                            <option value="custom">Custom AI Solutions</option>
+                            <option value="audit">Free AI Audit</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Project *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Briefly describe your business and what you'd like to achieve with AI..."></textarea>
+                    </div>
+                    <div class="hp-field" aria-hidden="true">
+                        <label for="website">Website</label>
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">Send Message</button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo" aria-label="Bayyan AI home">
+                        <span class="logo-icon" aria-hidden="true">&#9672;</span>
+                        <span class="logo-text">Bayyan<span class="logo-ai">AI</span></span>
+                    </a>
+                    <p>Transforming businesses through intelligent AI solutions. Based in the UAE, serving clients worldwide.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Consultancy</a></li>
+                        <li><a href="#services">AI Automation</a></li>
+                        <li><a href="#services">AI Content</a></li>
+                        <li><a href="#services">Custom Solutions</a></li>
+                        <li><a href="#whatsapp-ai">WhatsApp AI Agents</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#process">How It Works</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bayyan AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>

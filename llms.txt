@@ -1,0 +1,82 @@
+# Bayyan AI
+
+> AI consultancy and automation for business, based in the United Arab Emirates and working with clients worldwide. End-to-end AI adoption — from strategy to implementation.
+
+Bayyan AI helps UAE and international businesses adopt AI solutions that save
+time, reduce costs, and unlock new growth.
+
+## Services
+
+- **AI Consultancy** — assess operations, identify opportunities, and build a clear roadmap for AI transformation. Includes AI readiness assessment, strategy development, technology selection, and team training.
+- **AI Automation** — automate repetitive tasks and workflows. Email and communication AI, data processing automation, workflow integration, and custom AI agents. Marked as the most popular offering.
+- **AI Content & Marketing** — content strategy, AI copywriting, social media automation, and SEO optimization.
+- **Custom AI Solutions** — bespoke AI tools and SaaS products: chatbots and assistants, data analytics tools, API integrations, and SaaS development.
+- **WhatsApp AI Agents** — bilingual (Arabic + English) always-on WhatsApp agent that answers enquiries, qualifies leads, books viewings and appointments, and captures contacts. Advertised as live in 24–48 hours, from AED 5,000.
+
+## Process
+
+1. **Discovery call** — learn about the business, its challenges, and its goals. No jargon, just an honest conversation about what AI can do.
+2. **AI audit and strategy** — analyse operations and deliver a report with specific recommendations and expected ROI.
+3. **Implementation** — build and integrate solutions into existing workflows; fast, secure, minimal disruption.
+4. **Optimise and scale** — monitor performance, optimize results, and scale AI across the organisation.
+
+## Published pricing
+
+Prices are published on the site. **These are advertised rates for a
+conversation, not a purchasable online product** — see `auth.md`. There is no
+checkout, cart, or subscription API on this site.
+
+| Plan | Price | Includes |
+| --- | --- | --- |
+| Starter | $499 / month | 1 AI automation workflow, monthly strategy call, email support, basic analytics. No custom AI development or priority support. |
+| Growth | $1,499 / month | 5 AI automation workflows, weekly strategy calls, priority support, advanced analytics, custom AI development, team training. |
+| Enterprise | Custom | Unlimited AI workflows, dedicated AI strategist, 24/7 support, custom AI SaaS development, on-site training, SLA guarantee. |
+
+All plans include a free AI audit.
+
+## FAQ highlights
+
+- **Free AI audit** — a 30-minute call reviewing current workflows, identifying the highest-value automation opportunities, and producing a short written summary with expected ROI. No commitment required.
+- **Timeline** — most automation workflows go live within two to four weeks; larger custom projects are scoped in phases.
+- **Geography** — based in the UAE, working remotely with clients worldwide.
+- **Data security** — only systems the client approves are connected, least-privilege access is followed, data is never shared with third parties, and work can follow the client's existing security policies.
+
+## Figures claimed on the site
+
+50+ businesses helped, 40% average cost savings, 24/7 AI support. These are the
+business's own published marketing claims, presented here as claims.
+
+## Testimonials published on the site
+
+- "Bayyan AI automated our entire customer onboarding process. What used to take 3 hours now takes 10 minutes." — James R., e-commerce business owner
+- "The AI audit alone saved us $2,000/month in operational costs. Their team made AI simple and actionable." — Sarah K., marketing agency director
+- "Professional, knowledgeable, and results-driven. They built a custom AI chatbot that handles 70% of our support tickets." — Michael T., SaaS startup founder
+
+## Pages
+
+- [Homepage](https://bayyanai.com/): the full page as Markdown — services, process, pricing, FAQ, and contact.
+- [Privacy Policy](https://bayyanai.com/privacy.html)
+- [Terms of Service](https://bayyanai.com/terms.html)
+
+## Contact
+
+- Email — [info@bayyanai.com](mailto:info@bayyanai.com)
+- Phone — [+971 50 208 0895](tel:+971502080895)
+- WhatsApp — +44 7776 799344 (`https://wa.me/447776799344`)
+- Booking — https://cal.com/bayyanai/15min
+- Location — Dubai, United Arab Emirates, serving clients worldwide
+
+**Contact form:** the Web3Forms access key is still a placeholder. Until it is
+configured, the form opens a prefilled email to info@bayyanai.com instead of
+failing. See `auth.md`.
+
+## Agent discovery
+
+- [auth.md](https://bayyanai.com/auth.md): machine-readable access notes, including why there is no checkout despite published pricing.
+- [Agent Skills index](https://bayyanai.com/.well-known/agent-skills/index.json): skill discovery manifest.
+- [AI capability catalog](https://bayyanai.com/.well-known/ai-catalog.json): capability manifest.
+- [sitemap.xml](https://bayyanai.com/sitemap.xml): canonical URL list.
+
+## Optional
+
+- [Markdown version of this index](https://bayyanai.com/llms.txt)

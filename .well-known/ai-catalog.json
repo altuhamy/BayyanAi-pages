@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0",
+  "name": "bayyanai.com capability catalog",
+  "description": "Public, read-only agent surface for Bayyan AI. No authentication, no client portal, and no commerce: despite published plan prices there is no checkout, cart, payment, or subscription API, and the contact form is unconfigured. Enquiries are by email or phone.",
+  "homepage": "https://bayyanai.com/",
+  "capabilities": [
+    {
+      "id": "services.read",
+      "summary": "Read the four service lines and their contents as Markdown.",
+      "method": "GET",
+      "href": "https://bayyanai.com/index.md"
+    },
+    {
+      "id": "process.read",
+      "summary": "Read the four-step engagement process as Markdown.",
+      "method": "GET",
+      "href": "https://bayyanai.com/index.md"
+    },
+    {
+      "id": "pricing.read",
+      "summary": "Read published plan rates and inclusions as Markdown. Advertised rates only; nothing is purchasable on this site.",
+      "method": "GET",
+      "href": "https://bayyanai.com/index.md"
+    },
+    {
+      "id": "faq.read",
+      "summary": "Read the FAQ on the free audit, timelines, geography, and data security as Markdown.",
+      "method": "GET",
+      "href": "https://bayyanai.com/index.md"
+    },
+    {
+      "id": "contact.read",
+      "summary": "Read verified contact routes as Markdown. The web form is unconfigured and the social links are placeholders.",
+      "method": "GET",
+      "href": "https://bayyanai.com/index.md"
+    },
+    {
+      "id": "privacy.read",
+      "summary": "Read the privacy policy as Markdown.",
+      "method": "GET",
+      "href": "https://bayyanai.com/privacy.md"
+    },
+    {
+      "id": "terms.read",
+      "summary": "Read the terms of service as Markdown.",
+      "method": "GET",
+      "href": "https://bayyanai.com/terms.md"
+    },
+    {
+      "id": "index.llms",
+      "summary": "Site index following the llms.txt convention.",
+      "method": "GET",
+      "href": "https://bayyanai.com/llms.txt"
+    },
+    {
+      "id": "index.sitemap",
+      "summary": "Canonical URL list.",
+      "method": "GET",
+      "href": "https://bayyanai.com/sitemap.xml"
+    }
+  ],
+  "links": [
+    { "rel": "self", "href": "https://bayyanai.com/.well-known/ai-catalog.json" },
+    { "rel": "describedby", "type": "text/markdown", "href": "https://bayyanai.com/auth.md" },
+    { "rel": "help", "href": "https://bayyanai.com/auth.md" },
+    { "rel": "alternate", "type": "text/markdown", "href": "https://bayyanai.com/llms.txt" },
+    { "rel": "index", "href": "https://bayyanai.com/.well-known/agent-skills/index.json" },
+    { "rel": "sitemap", "type": "application/xml", "href": "https://bayyanai.com/sitemap.xml" }
+  ]
+}

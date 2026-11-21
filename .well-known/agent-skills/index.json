@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Bayyan AI",
+  "description": "AI consultancy and automation for business, based in the UAE and serving clients worldwide. AI consultancy, automation, content and marketing, and custom AI solutions. Public site information only. Published prices are advertised rates with no online checkout, cart, or payment API; contact is by email or phone.",
+  "homepage": "https://bayyanai.com/",
+  "llms": "https://bayyanai.com/llms.txt",
+  "skills": [
+    {
+      "name": "bayyan-services",
+      "description": "The four service lines: AI Consultancy, AI Automation, AI Content and Marketing, and Custom AI Solutions, with what each includes. Use when asked what Bayyan AI offers.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-consultancy",
+      "description": "AI consultancy detail: readiness assessment, strategy development, technology selection, and team training. Use when asked about advisory or strategy work.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-automation",
+      "description": "AI automation detail: email and communication AI, data processing automation, workflow integration, and custom AI agents. Use when asked about automating repetitive work.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-content-marketing",
+      "description": "AI content and marketing detail: content strategy, AI copywriting, social media automation, and SEO optimization. Use when asked about AI-assisted marketing.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-custom-solutions",
+      "description": "Bespoke AI work: chatbots and assistants, data analytics tools, API integrations, and SaaS development. Use when asked about custom builds.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-process",
+      "description": "The four-step engagement process from discovery call through audit, implementation, and optimisation. Use when asked how an engagement works.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-pricing",
+      "description": "Published plan rates and inclusions: Starter, Growth, and Enterprise. Advertised rates only - there is no online checkout or payment API. Use when asked about pricing, and read auth.md before implying anything can be purchased.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-faq",
+      "description": "Answers on the free AI audit, implementation timelines, working outside the UAE, and data security. Use when asked about how the free audit works, how long projects take, or how client data is handled.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-contact",
+      "description": "Verified contact routes: email, phone, and UAE location. The contact form is unconfigured and the social links are placeholders. Use when asked how to reach the business.",
+      "url": "https://bayyanai.com/index.md",
+      "type": "text/markdown"
+    },
+    {
+      "name": "bayyan-terms",
+      "description": "Terms of service as Markdown.",
+      "url": "https://bayyanai.com/terms.md",
+      "type": "text/markdown"
+    }
+  ]
+}
